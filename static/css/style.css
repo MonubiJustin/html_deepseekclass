@@ -1,0 +1,75 @@
+/* ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #078807;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+li a:hover {
+    background-color: black;
+} */
+
+/* .fruits {
+    background-color: rgb(162, 0, 255);
+    border: 3px dotted black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cars {
+    background-color: blue;
+    border: 2px ;
+    text-align: right;
+
+}
+
+#computers {
+    background-color: cyan;
+    border: 5px dotted greenyellow;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #078807;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Arial, san-serif;
+    font-size: 12px;
+}
+
+li a:hover{
+    background-color: black;
+    border-radius: 10px;
+    transition-duration: 0.5s45;
+}

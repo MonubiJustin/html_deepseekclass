@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+   <div class="form-box">
+    <form>
+        <h2>CREATE AN ACCOUNT</h2>
+        <label for="fname">Firstname</label>
+        <input type="text" id="fname" name="fname" required placeholder="enter first name">
+        <label for="lname">Lastname</label>
+        <input type="text" name="lname" id="lname" required placeholder="enter last name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="enter email">
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" required>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" required>
+        <label for="cpass">Confirm password</label>
+        <input type="password" name="cpass" id="cpass" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required>
+        <label for="custom">Custom</label>
+        <input type="radio" name="gender" id="custom" required>
+        <label for="courses">Course Taken</label>
+        <select name="course" id="course">
+            <option value="js">Javascript</option>
+            <option value="ds">DataScience</option>
+            <option value="cs">Cyber Security</option>
+            <option value="django">Django</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+   </div> 
+</body>
+</html>
