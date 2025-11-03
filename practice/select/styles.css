@@ -1,0 +1,33 @@
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
+select {
+  padding: 10px;
+  transition: 0.4s;
+  border: 2px solid #ddd;
+  background: #eee;
+}
+
+select:hover, select:focus {
+  background-color: #ddd;
+}
+
+select::picker-icon {
+  color: #999;
+  transition: 0.4s rotate;
+  font-weight: bolder;
+  content: '˅';
+  left: 88px;
+  top: 100%;
+  
+}
+
+select:open::picker-icon {
+  rotate: 360deg;
+}
+
+::picker(select) {
+  border: none;
+}
